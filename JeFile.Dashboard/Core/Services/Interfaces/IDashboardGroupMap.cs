@@ -5,9 +5,9 @@ namespace JeFile.Dashboard.Core.Services.Interfaces;
 
 public interface IDashboardGroupMap : IGrainWithStringKey
 {
-        Task<string> GetUrl();
-        Task<string> GetTitle();
-        Task<double> GetLatitude();
-        Task<double> GetLongitude();
+        Task<string> GetUrl(); // получить Url 
+        Task<string> GetTitle(); // получить название
+        Task<double> GetLatitude(); // получить размер по ширине
+        Task<double> GetLongitude(); // получить размер по длине
         Task<double> GetZoomLevel();
 }
