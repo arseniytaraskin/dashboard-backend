@@ -10,4 +10,13 @@
     <PackageReference Include="Microsoft.Orleans.Core.Abstractions" Version="9.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Core\Models\" />
+    <Folder Include="Core\Repositories\" />
+    <Folder Include="Features\" />
+    <Folder Include="Features\Model\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
 </Project>
