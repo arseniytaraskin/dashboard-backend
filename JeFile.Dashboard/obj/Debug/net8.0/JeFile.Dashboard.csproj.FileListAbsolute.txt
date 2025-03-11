@@ -1,0 +1,6 @@
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.csproj.AssemblyReference.cache
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.AssemblyInfoInputs.cache
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.AssemblyInfo.cs
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.csproj.CoreCompileInputs.cache
+C:\projects\JeFile.Dashboard.Orleans\JeFile.Dashboard\obj\Debug\net8.0\JeFile.Dashboard.sourcelink.json
