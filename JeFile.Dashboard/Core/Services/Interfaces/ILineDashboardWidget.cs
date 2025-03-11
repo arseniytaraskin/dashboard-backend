@@ -1,15 +1,12 @@
-using System;
-using Orleans;
-using System.Threading.Tasks;
-
-namespace JeFile.Dashboard.Core.Services.Interfaces;
-
-public interface ILineDashboardWidget : IGrainWithStringKey
+namespace JeFile.Dashboard.Core.Services.Interfaces
 {
-    Task<Type> GetDataType();
-    Task<DateTime> GetLastUpdateTime();
-    Task<object> GetData();
-
-    Task<DashboardAttentionLevel> GetAttentionLevel();
-    Task<DashboardWidgetIndicatorType?> GetIndicatorType(); 
+    public interface ILineDashboardWidget
+    {
+        string Id { get; }
+        Type DataType { get; }
+        DateTime LastUpdateTime { get; }
+        object Data { get; }
+        DashboardAttentionLevel AttentionLevel { get; }
+        DashboardWidgetIndicatorType? IndicatorType { get; }
+    }
 }

@@ -1,20 +1,16 @@
-using System.Collections.Generic;
-using Orleans;
-using System.Threading.Tasks;
-
-namespace JeFile.Dashboard.Core.Services.Interfaces;
-
-public interface IDashboardMonitoringGroup : IGrainWithIntegerKey
+namespace JeFile.Dashboard.Core.Services.Interfaces
 {
-    Task<long> GetId();
-    Task<string> GetName();
-    Task<int> GetCategoryId();
-    Task<string> GetLineType();
-    Task<IReadOnlyList<ILineDashboard>> GetDashboards();
-    Task<double> GetDisplayLatitude();
-    Task<double> GetDisplayLongitude();
-    Task<DashboardAttentionLevel?> GetAttentionLevel();
-    Task<int> GetDisplayOrder();
-    Task<IDashboardGroupMap> GetMap();
-
+    public interface IDashboardMonitoringGroup
+    {
+        long Id { get; }
+        string Name { get; }
+        int CategoryId { get; }
+        string LineType { get; }
+        IReadOnlyList<ILineDashboard> Dashboards { get; }
+        double DisplayLatitude { get; }
+        double DisplayLongitude { get; }
+        DashboardAttentionLevel? AttentionLevel { get; }
+        int DisplayOrder { get; }
+        IDashboardGroupMap Map { get; }
+    }
 }

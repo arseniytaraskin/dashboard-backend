@@ -1,12 +1,8 @@
-using System;
-using Orleans;
-using System.Threading.Tasks;
-namespace JeFile.Dashboard.Core.Services.Interfaces;
-
-public interface ILineDashboardWidgetCollection: IGrainWithIntegerKey
+namespace JeFile.Dashboard.Core.Services.Interfaces
 {
-    Task<ILineDashboardWidget?> GetWidget(string widgetId);
-    Task<T> GetWidgetData<T>();
-    Task<int> GetCount();
-    Task<IReadOnlyList<ILineDashboardWidget>> GetAllWidgets();    
+    public interface ILineDashboardWidgetCollection : IReadOnlyCollection<ILineDashboardWidget>
+    {
+        ILineDashboardWidget? this[string widgetId] { get; }
+        T GetWidgetData<T>();
+    }
 }

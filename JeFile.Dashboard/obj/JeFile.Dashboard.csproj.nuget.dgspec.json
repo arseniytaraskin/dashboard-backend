@@ -50,7 +50,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.Orleans.Core": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
             "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "Microsoft.Orleans.Server": {
               "target": "Package",
               "version": "[9.1.2, )"
             }

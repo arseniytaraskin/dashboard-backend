@@ -1,8 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeFile.Dashboard", "JeFile.Dashboard.csproj", "{05757BC6-5180-C804-F330-24DC1323487E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo", "Silo\Silo.csproj", "{1E0DD5AF-A1E1-4021-A5CB-85D34E1FAF6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,10 @@ Global
 		{05757BC6-5180-C804-F330-24DC1323487E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05757BC6-5180-C804-F330-24DC1323487E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05757BC6-5180-C804-F330-24DC1323487E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0DD5AF-A1E1-4021-A5CB-85D34E1FAF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0DD5AF-A1E1-4021-A5CB-85D34E1FAF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0DD5AF-A1E1-4021-A5CB-85D34E1FAF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0DD5AF-A1E1-4021-A5CB-85D34E1FAF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
