@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eqPrHqPPqSc=",
+  "dgSpecHash": "CUQe+CjeuU8=",
   "success": true,
   "projectFilePath": "C:\\projects\\JeFile.Dashboard.Orleans\\JeFile.Dashboard\\JeFile.Dashboard.csproj",
   "expectedPackageFiles": [
@@ -148,7 +148,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: Microsoft.CodeAnalysis.Workspaces.Common 4.5.0 требуется Microsoft.CodeAnalysis.Common (= 4.5.0), но в результате разрешения получена версия Microsoft.CodeAnalysis.Common 4.13.0.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.Workspaces.Common 4.5.0 requires Microsoft.CodeAnalysis.Common (= 4.5.0) but version Microsoft.CodeAnalysis.Common 4.13.0 was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.Common",
       "targetGraphs": [
         "net8.0"
@@ -158,7 +158,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: Microsoft.CodeAnalysis.CSharp 2.8.2 требуется Microsoft.CodeAnalysis.Common (= 2.8.2), но в результате разрешения получена версия Microsoft.CodeAnalysis.Common 4.13.0.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.CodeAnalysis.CSharp 2.8.2 requires Microsoft.CodeAnalysis.Common (= 2.8.2) but version Microsoft.CodeAnalysis.Common 4.13.0 was resolved.",
       "libraryId": "Microsoft.CodeAnalysis.Common",
       "targetGraphs": [
         "net8.0"
