@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JeFile.Dashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fddb2e843a0e971c9dbc5647fb8b51a1fa147f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+908d8905777934d004c0d338e146e5f910a46067")]
 [assembly: System.Reflection.AssemblyProductAttribute("JeFile.Dashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JeFile.Dashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
