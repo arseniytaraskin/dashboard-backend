@@ -17,9 +17,9 @@ public class DashboardMapMonitoringListGrain : Grain, IDashboardMapMonitoringLis
 
     public async Task<MonitoringMapListItem[]> GetMonitoringListAsync()
     {
-        // Упрощенная логика: просто получаем данные из сервиса
-        var companyId = "defaultCompanyId"; // Заглушка вместо реального ID компании
-        var language = "en"; // Заглушка вместо реального языка
+        
+        var companyId = "defaultCompanyId"; 
+        var language = "en"; 
         var dashboard = await _dashboardService.GetCompanyDashboard(companyId, language, CancellationToken.None);
 
         if (dashboard == null)
