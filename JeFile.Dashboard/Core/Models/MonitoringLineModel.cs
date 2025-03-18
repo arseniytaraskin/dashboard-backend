@@ -15,4 +15,7 @@ public class MonitoringLineModel
 
     [Id(3)]
     public List<CheckpointModel> Checkpoints { get; set; } = new();
+
+    [Id(4)]
+    public List<WorkingServicePoint> WorkingServicePoints { get; set; } = new();
 }
