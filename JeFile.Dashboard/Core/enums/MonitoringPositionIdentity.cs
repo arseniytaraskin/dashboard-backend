@@ -6,5 +6,6 @@ public enum MonitoringPositionIdentity
     Break,
     MobileApp,
     ScreenCall,
-    WebFrame
+    WebFrame,
+    Unknown
 }
