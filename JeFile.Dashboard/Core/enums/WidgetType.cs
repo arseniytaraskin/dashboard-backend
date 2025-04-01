@@ -6,4 +6,5 @@ public enum WidgetType
     LineStatistics,
     NotArrivedPositions,
     OutOfService,
+    MobileAppStatus,
 }
