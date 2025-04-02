@@ -7,4 +7,5 @@ public enum WidgetType
     NotArrivedPositions,
     OutOfService,
     MobileAppStatus,
+    PriorityPositions,
 }
