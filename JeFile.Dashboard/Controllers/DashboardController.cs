@@ -1,24 +1,34 @@
+using JeFile.Dashboard.Core.Models;
+using JeFile.Dashboard.Core.Services.Interfaces;
 using JeFile.Dashboard.Features.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Orleans;
 using System.Threading.Tasks;
 
-[Route("~/dashboard/map/monitoring/list")]
 [ApiController]
+[Route("api/dashboard")]
 public class DashboardController : ControllerBase
 {
-    private readonly IClusterClient _clusterClient;
+    private readonly IDashboardServiceNew _dashboardService;
 
-    public DashboardController(IClusterClient clusterClient)
+    public DashboardController(IDashboardServiceNew dashboardService)
     {
-        _clusterClient = clusterClient;
+        _dashboardService = dashboardService;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> MapMonitoringList()
+    [HttpGet("{lineId}")]
+    public async Task<IActionResult> GetDashboardData(Guid lineId)
     {
-        var grain = _clusterClient.GetGrain<IDashboardMapMonitoringListGrain>(Guid.NewGuid());
-        var result = await grain.GetMonitoringListAsync();
-        return Ok(result);
+        var data = await _dashboardService.GetDashboardDataAsync(lineId);
+        return Ok(data);
+    }
+
+    [HttpPost("refresh/{lineId}")]
+    public async Task<IActionResult> RefreshDashboard(Guid lineId,
+        [FromBody] MonitoringLineModel line,
+        DateTime refreshTime)
+    {
+        await _dashboardService.RefreshDashboardDataAsync(lineId, line, refreshTime);
+        return Ok("Данные дашборда обновлены");
     }
 }

@@ -24,10 +24,10 @@ public class MonitoringPositionModel
     public Guid? AssignedCheckpointId { get; set; }
 
     [Id(5)]
-    public TimeSpan DurationFromServiceStart { get; set; }
+    public TimeSpan DurationFromServiceStart { get; set; } = TimeSpan.Zero;
 
     [Id(6)]
-    public TimeSpan ExpectedServiceDuration { get; set; }
+    public TimeSpan ExpectedServiceDuration { get; set; } = TimeSpan.Zero;
 
     [Id(7)]
     public int PriorityLevel { get; set; } = 0;
