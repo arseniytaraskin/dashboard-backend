@@ -1,6 +1,7 @@
 using System;
 using JeFile.Dashboard.Core.enums;
 using JeFile.Dashboard.Core.Models;
+using JeFile.Dashboard.Core.Services.Interfaces;
 using JeFile.Dashboard.Features.InterfacesGrain;
 using JeFile.Dashboard.Features.Model;
 using JeFile.Dashboard.Infrastructure.Data;
