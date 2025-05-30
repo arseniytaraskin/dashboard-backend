@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Silo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44694b3f31d6af5890c78c548803a8876592e716")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5768a566c5aa72eea34cec47a5fdd1330af3e21")]
 [assembly: System.Reflection.AssemblyProductAttribute("Silo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Silo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
