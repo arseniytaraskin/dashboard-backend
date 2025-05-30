@@ -81,6 +81,10 @@
             "Microsoft.Orleans.Server": {
               "target": "Package",
               "version": "[9.1.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
